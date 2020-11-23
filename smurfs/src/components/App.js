@@ -1,9 +1,9 @@
 import React, { Component } from "react";
+import { connect } from 'react-redux';
 import "./App.css";
-import { connect } from 'react-redux'
-import { fetchSmurfs } from '../actions'
-import SmurfList from './smurfs/SmurfList';
-import SmurFrom from './Smurfs/SmurfFrom';
+import { fetchSmurfs } from '../actions';
+import SmurfList from './Smurfs/SmurfList';
+import SmurfForm from './Smurfs/SmurfForm';
 
 class App extends Component {
   // array with one smurf returned 
@@ -22,7 +22,7 @@ class App extends Component {
         <h2> Smurfs village!</h2>
         <SmurfList />
         <SmurfForm />
-      </div >
+      </div>
     );
   }
 }

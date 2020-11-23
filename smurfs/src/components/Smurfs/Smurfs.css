@@ -5,10 +5,11 @@ p.name{
   font-weight: bold;
   font-size: 2rem;
 }
-/* Form Styles for Smurf/*/
+/* Form Styles for Smurf RTM/*/
 .smurf-form{
   display: flex;
   flex-direction: column;
+  text-align: center;
   justify-content: center;
   align-items: flex-start;
   margin: 20px;

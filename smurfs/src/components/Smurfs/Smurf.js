@@ -1,8 +1,8 @@
 import React from 'react';
-
 import * as MUI from '../../materialui/index';
-
 import './Smurfs.css';
+// import { Card, Button, CardTitle, CardText } from 'reactstrap';
+
 
 const Smurf = props => {
   return (

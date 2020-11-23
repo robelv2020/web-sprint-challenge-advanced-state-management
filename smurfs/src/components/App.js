@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
 import { connect } from 'react-redux'
-// import {fetchSmurfs} from '../actions'
-// import SmurfList from './smurfs/SmurfList';
-//import SmurFrom from './smurfs/SmurfForm';
+import { fetchSmurfs } from '../actions'
+import SmurfList from './smurfs/SmurfList';
+import SmurFrom from './Smurfs/SmurfFrom';
 
 class App extends Component {
   // array with one smurf returned 
@@ -27,4 +27,4 @@ class App extends Component {
   }
 }
 
-export default Connect(null, { fetchSmurfs }(App);
+export default connect(null, { fetchSmurfs })(App);
